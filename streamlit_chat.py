@@ -22,7 +22,7 @@ def get_llm_response(query):
 # Right now this is refering to the API from the lama_sft_model_sentry project created from the repo at https://github.com/dominodatalab/lama_sft_model_sentry
 
 # specify the model api details
-os.environ['domino_model_endpoint']='https://prod-field.cs.domino.tech:443/models/6748208ebddccf5c9e185839/latest/model'
+#os.environ['domino_model_endpoint']='https://prod-field.cs.domino.tech:443/models/6748208ebddccf5c9e185839/latest/model'
 llm_api_url = os.environ.get('domino_model_endpoint')
 llm_api_key = os.environ.get('llm_api_key')
 
